@@ -1,0 +1,27 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px 0px;
+  margin: 0px auto;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 1rem;
+}
+
+.projects-heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Desktop Layout */
+@media only screen and (min-width: 768px) {
+  .projects-heading {
+    font-size: 56px;
+    font-weight: 400;
+    text-align: start;
+  }
+}
